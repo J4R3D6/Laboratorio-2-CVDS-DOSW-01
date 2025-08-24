@@ -1,5 +1,6 @@
 package edu.dosw.lab.Comportamentales.reto1;
 
-public interface Discount {
+interface DiscountStrategy {
     double applyDiscount(double total);
 }
+

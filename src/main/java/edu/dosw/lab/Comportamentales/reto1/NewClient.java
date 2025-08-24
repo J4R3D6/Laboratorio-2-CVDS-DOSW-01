@@ -1,8 +1,8 @@
 package edu.dosw.lab.Comportamentales.reto1;
 
-public class NewClient implements Discount{
+class NewCustomerDiscount implements DiscountStrategy {
     @Override
     public double applyDiscount(double total) {
-        return total * 0.95; // 5% de descuento
+        return total * 0.95; // 5% descuento
     }
 }
