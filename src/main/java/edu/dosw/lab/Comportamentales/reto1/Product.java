@@ -14,5 +14,5 @@ class Product {
     public double getPrice() { return price; }
     public String getName() { return name; }
     public int getQuantity() { return quantity; }
-    public void addProduct() { this.quantity++; }
+    public void addProduct(int quantity) { this.quantity = this.quantity + quantity; }
 }

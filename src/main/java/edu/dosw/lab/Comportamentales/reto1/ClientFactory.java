@@ -8,9 +8,7 @@ class ClienteFactory {
             case "frecuente":
                 return new Client("Frecuente", new FrequentCustomerDiscount());
             default:
-                throw new IllegalArgumentException("Tipo de cliente no soportado");
+                throw new IllegalArgumentException("Tipo de cliente no reconocido, se tomara como nuevo");
         }
     }
 }
-
-// 4. Carrito de compras
