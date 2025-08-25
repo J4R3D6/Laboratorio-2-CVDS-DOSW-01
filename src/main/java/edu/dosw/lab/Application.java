@@ -1,6 +1,7 @@
 package edu.dosw.lab;
 
 import edu.dosw.lab.Comportamentales.reto1.Reto1TiendaDeDonPepe;
+import edu.dosw.lab.Comportamentales.reto7.Reto7ControlMagico;
 import edu.dosw.lab.Creacionales.reto2.Reto2ChefDeHamburguesas;
 
 public class Application {
@@ -8,5 +9,6 @@ public class Application {
         System.out.println("✅ Proyecto Maven configurado y corriendo correctamente");
         //Reto1TiendaDeDonPepe.ejecutar();
         Reto2ChefDeHamburguesas.ejecutar();
+        //Reto7ControlMagico.ejecutar();
     }
 }

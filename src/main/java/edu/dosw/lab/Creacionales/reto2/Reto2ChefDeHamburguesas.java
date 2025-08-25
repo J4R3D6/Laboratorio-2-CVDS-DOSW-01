@@ -1,59 +1,55 @@
 package edu.dosw.lab.Creacionales.reto2;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class Reto2ChefDeHamburguesas {
 
-    public static void ejecutar() {
-        Scanner sc = new Scanner(System.in);
-        Builder builder = new Builder();
 
-        System.out.println("Vamos a armar tu hamburguesa personalizada:\n");
+        public static void ejecutar() {
+            Scanner sc = new Scanner(System.in);
+            List<Ingrediente> ingredientesDisponibles = new ArrayList<>(Arrays.asList(
+                    new Ingrediente("Pan", 3000),
+                    new Ingrediente("Carne", 10000),
+                    new Ingrediente("Queso", 5000),
+                    new Ingrediente("Lechuga", 2000),
+                    new Ingrediente("Tomate", 2200),
+                    new Ingrediente("Salsa especial", 3000)
+            ));
 
-        // Selección de pan
-        System.out.print("Elige tu pan (Integral, Blanco, Ajonjolí): ");
-        String pan = sc.nextLine();
-        builder.conPan(pan);
+            System.out.println("Seleccione ingredientes para su hamburguesa:");
+            for (int i = 0; i < ingredientesDisponibles.size(); i++) {
+                System.out.println((i + 1) + ". " + ingredientesDisponibles.get(i));
+            }
+            System.out.println((ingredientesDisponibles.size() + 1) + ". Agregar un nuevo ingrediente");
 
-        // Selección de carne
-        System.out.print("Elige tu carne (Res, Pollo, Vegana, Doble carne de res): ");
-        String carne = sc.nextLine();
-        builder.conCarne(carne);
+            System.out.print("\nIngrese los números separados por coma: ");
+            String[] seleccion = sc.nextLine().split(",");
 
-        // Selección de queso
-        System.out.print("Elige tu queso (Cheddar, Mozzarella, Suizo, Ninguno): ");
-        String queso = sc.nextLine();
-        if (!queso.equalsIgnoreCase("Ninguno")) {
-            builder.conQueso(queso);
+            Builder builder = new Builder();
+
+            for (String opcion : seleccion) {
+                int idx = Integer.parseInt(opcion.trim()) - 1;
+                if (idx >= 0 && idx < ingredientesDisponibles.size()) {
+                    builder.agregarIngrediente(ingredientesDisponibles.get(idx));
+                } else if (idx == ingredientesDisponibles.size()) {
+                    System.out.print("Ingrese el nombre del nuevo ingrediente: ");
+                    String nombre = sc.nextLine();
+                    System.out.print("Ingrese el precio del ingrediente: ");
+                    int precio = sc.nextInt();
+                    sc.nextLine();
+                    Ingrediente nuevo = new Ingrediente(nombre, precio);
+                    builder.agregarIngrediente(nuevo);
+                }
+            }
+
+            Hamburguesa hamburguesa = builder.build();
+            System.out.println("\n" + hamburguesa);
+
+            sc.close();
         }
-
-        // Vegetales
-        while (true) {
-            System.out.print("Agrega un vegetal (Lechuga, Tomate, Cebolla, Pepinillos) o escribe 'no' para continuar: ");
-            String vegetal = sc.nextLine();
-            if (vegetal.equalsIgnoreCase("no")) break;
-            builder.conVegetal(vegetal);
-        }
-
-        // Salsas
-        while (true) {
-            System.out.print("Agrega una salsa (BBQ, Mayonesa, Mostaza, Ketchup) o escribe 'no' para continuar: ");
-            String salsa = sc.nextLine();
-            if (salsa.equalsIgnoreCase("no")) break;
-            builder.conSalsa(salsa);
-        }
-
-        // Extras
-        while (true) {
-            System.out.print("Agrega un extra (Tocineta, Extra queso, Huevo, Ninguno) o escribe 'no' para continuar: ");
-            String extra = sc.nextLine();
-            if (extra.equalsIgnoreCase("no")) break;
-            builder.conExtra(extra);
-        }
-
-        // Construcción final
-        Hamburguesa personalizada = builder.build();
-        System.out.println(personalizada);
     }
-}
+
 

@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c938400-63e8-4f99-bbda-d341302428f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/dosw/lab/Comportamentales/reto7/AbrirPuertaCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/dosw/lab/Comportamentales/reto7/AjustarVolumenCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/dosw/lab/Comportamentales/reto7/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/dosw/lab/Comportamentales/reto7/ControlRemoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/dosw/lab/Comportamentales/reto7/EncenderLuzCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/dosw/lab/Comportamentales/reto7/Luz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/dosw/lab/Comportamentales/reto7/Musica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/dosw/lab/Comportamentales/reto7/Puerta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/dosw/lab/Comportamentales/reto7/ReproducirMusicaCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/dosw/lab/Comportamentales/reto7/Reto7ControlMagico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/dosw/lab/Comportamentales/reto7/Volumen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/dosw/lab/Creacionales/reto2/Ingrediente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/dosw/lab/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/dosw/lab/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/dosw/lab/Creacionales/reto2/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/dosw/lab/Creacionales/reto2/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/dosw/lab/Creacionales/reto2/Hamburguesa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/dosw/lab/Creacionales/reto2/Hamburguesa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/dosw/lab/Creacionales/reto2/Reto2ChefDeHamburguesas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/dosw/lab/Creacionales/reto2/Reto2ChefDeHamburguesas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -31,8 +49,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/J4R3D6/Laboratorio-2-CVDS-DOSW-01.git",
-    "accountId": "3351f0a5-0eb2-4dd3-9eb2-21947fbe2729"
+    "url": "git@github.com:J4R3D6/Laboratorio-2-CVDS-DOSW-01.git",
+    "accountId": "9513440d-850b-4caf-99d0-c8a55f262a1f"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -49,7 +67,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "features-reto2",
+    "git-widget-placeholder": "feature/RodriguezMariaPaula__PiedrahitaCarlos__UsecheDaniel__FarfanJared__2025-2",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/danieleduardouseche/Documents/DOSW/Laboratorio-2-CVDS-DOSW-01",
     "node.js.detected.package.eslint": "true",
@@ -83,8 +101,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
       </set>
     </attachedChunks>
   </component>
@@ -97,6 +115,7 @@
       <updated>1756075358725</updated>
       <workItem from="1756075406034" duration="3377000" />
       <workItem from="1756089392083" duration="642000" />
+      <workItem from="1756144525027" duration="1480000" />
     </task>
     <servers />
   </component>
