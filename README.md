@@ -1,9 +1,10 @@
 # 📝 Laboratorio 02 – SOLID, Patrones de Diseño y UML
 
 **Integrantes:**
-- Nombre Completo 1  
-- Nombre Completo 2  
-- Nombre Completo 3  
+- Daniel Eduardo Useche
+- Jared Farfan
+- Carlos Piedrahita
+- Maria Paula Rodriguez 
 
 **Nombre de la rama:**  
 `feature/Apellido1_Apellido2_Apellido3_2025-2`
