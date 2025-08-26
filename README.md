@@ -84,7 +84,25 @@ Patrón #2: Con la clase ‘DecoratorCategory’ la cual se tomó como base se r
 
 ### Reto 4 :
 
+Patron de Diseño
+Comportamental
+Patron Utilizado
+Strategy
+Justificación
+Lo usamos ya que cada moneda tiene una forma de conversión distinta y asi se puede cambiar la manera de convertirlas sin modificar la clase que hace la transaccion
+¿Cómo lo aplico?
+Lo utilizamos para crear la interfaz TasaCaambio con el metodo convertir y la clase TasaCambioReal que aplica la conversión real, luego ServicioCambio usa TasaCambio para convertir cualquier transacción, en caso de querer otra forma de conversión hacemos otra clase que implemente TasaCambio
+
 ### Reto 5 :
+
+Patron de Diseño
+Estructural
+Patron Utilizado
+Decorator
+Justificación
+La justificación que podemos dar es que utilizamos este patron para añadir de manera dinamica nuevas caracteristicas a un objeto existente sin tener la necesidad de modificar la clase original
+¿Cómo lo aplico?
+Lo utilizamos para poder tomar el café básdico e irle poniendo más cosas como el chocolate, la leche condensada o la canela, estas envuelven el objeto original para agregarle la determinada caracteristica
 
 ### Reto 6 :
 
