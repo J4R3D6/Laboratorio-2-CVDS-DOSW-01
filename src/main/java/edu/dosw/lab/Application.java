@@ -8,7 +8,7 @@ public class Application {
     public static void main(String[] args) {
         System.out.println("✅ Proyecto Maven configurado y corriendo correctamente");
         //Reto1TiendaDeDonPepe.ejecutar();
-        Reto2ChefDeHamburguesas.ejecutar();
-        //Reto7ControlMagico.ejecutar();
+        //Reto2ChefDeHamburguesas.ejecutar();
+        Reto7ControlMagico.ejecutar();
     }
 }

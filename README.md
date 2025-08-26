@@ -1,13 +1,12 @@
 # 📝 Laboratorio 02 – SOLID, Patrones de Diseño y UML
 
 **Integrantes:**
-- Daniel Eduardo Useche
-- Jared Farfan
-- Carlos Piedrahita
-- Maria Paula Rodriguez 
+- Nombre Completo 1  
+- Nombre Completo 2  
+- Nombre Completo 3  
 
 **Nombre de la rama:**  
-`feature/Apellido1_Apellido2_Apellido3_2025-2`
+`feature/RodriguezMariaPaula_PiedrahitaCarlos_UsecheDaniel_FarfanJared_2025-2`
 
 ---
 
@@ -53,4 +52,34 @@
 
     Una interfaz es un contrato que define comportamiento y por otro lado la clase abstracta define más que todo atributos y métodos abstractos sin implementación. 
 
- 
+## Desafios:
+
+### Reto 1 :
+
+El patrón implementado es *Strategy Pattern*, el cual se clasifica como patrón comportamental porque determina cómo se debe realizar el intercambio de mensajes entre diferentes objetos para resolver una tarea, tambien se uso el patrón *Factory* para mejorar la creacion de los diferentes tipos de cliente.
+
+Clases necesarias Reto1TiendaDeDonPepe, Client, ClientFactory, DiscountStrategy, FrequentClient, NewClient, Product y ShoppingCart.
+
+Usamos este patrón de diseño ya que desacopla la forma en la que hacemos el descuento de los clientes, pues en caso de crear un nuevo tipo de cliente y este no contar con un descuento se tendría que cambiar el comportamiento de la clase padre (cliente) violando los princio SOLID (open close).
+
+### Reto 2 :
+
+El patrón implementado es *Builder*, el cual se clasifica como patrón creacional pues que el problema en cuestión plantea una construcción distinta al mismo objeto
+
+Clases necesarias Reto2ChefDeHamburguesas, Hamburguesa, Builder
+
+### Reto 3 :
+
+### Reto 4 :
+
+### Reto 5 :
+
+### Reto 6 :
+
+### Reto 7 :
+
+El patrón implemtado es *Command*, el cual se clasifica como patrón creacional Cada acción (Encender luz, Abrir puerta, etc.) se encapsula como un objeto comando y este sabe cómo ejecutarse y cómo deshacerse, el control remoto no necesita conocer la lógica interna de cada dispositivo solo manda execute() o undo().
+
+Permite mantener un historial de comandos ejecutados, lo cual facilita saber quién ejecutó qué.
+
+### Reto 8 :
