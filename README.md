@@ -70,14 +70,22 @@ Clases necesarias Reto2ChefDeHamburguesas, Hamburguesa y Builder.
 
 ### Reto 3 :
 
-Patrón de Diseño 
+#### Patrón de Diseño 
+
 Se utilizaron dos clases de patrones, tanto el creacional como el estructural
+
+#### Patrón Utilizado
+
 
 Patrón Utilizado
 
 Patrón #1: Factory Method.
 
+
 Patrón #2: Decorator.
+
+#### Justificación
+
 
 Justificación
 
@@ -85,16 +93,33 @@ Patrón #1: Se utilizó para que por medio de este pudiéramos centralizar la cr
 
 Patrón #2: Este tuvo un uso para poder agregar características adicionales a los vehículos de manera dinámica.
 
+#### ¿Cómo lo aplico?
+
+
 Cómo Lo aplico
 
 Patrón #1: Por medio de la clase ‘VehicleFactory’ la cual cuenta con un método estático que recibe los parámetros que ingresa el usuario y regresa la instancia del respectivo vehículo.
+
 
 Patrón #2: Con la clase ‘DecoratorCategory’ la cual se tomó como base se realizaron unos decoradores específicos como por ejemplo “luxury” los cuales se encargan de alterar los valores determinados.
 
 ### Reto 4 :
 
-Patron de Diseño
+#### Patron de Diseño
+
 Comportamental
+
+#### Patron Utilizado
+
+Strategy
+
+#### Justificación
+
+Lo usamos ya que cada moneda tiene una forma de conversión distinta y asi se puede cambiar la manera de convertirlas sin modificar la clase que hace la transacción
+
+#### ¿Cómo lo aplico?
+
+Lo utilizamos para crear la interfaz TasaCambio con el método convertir y la clase TasaCambioReal que aplica la conversión real, luego ServicioCambio usa TasaCambio para convertir cualquier transacción, en caso de querer otra forma de conversión hacemos otra clase que implemente TasaCambio
 Patron Utilizado
 *Strategy*
 Justificación
@@ -103,6 +128,8 @@ Lo usamos ya que cada moneda tiene una forma de conversión distinta y asi se pu
 Lo utilizamos para crear la interfaz TasaCaambio con el metodo convertir y la clase TasaCambioReal que aplica la conversión real, luego ServicioCambio usa TasaCambio para convertir cualquier transacción, en caso de querer otra forma de conversión hacemos otra clase que implemente TasaCambio
 
 ### Reto 5 :
+
+#### Patron de Diseño
 
 Patron de Diseño
 
@@ -123,13 +150,16 @@ Lo utilizamos para poder tomar el café básdico e irle poniendo más cosas como
 
 Patrón de Diseño 
 
+
 Comportamiento
+
 
 Patrón Utilizado
 
 *Chain of responsibility*
 
 Justificación
+
 
 Este patrón nos ayudó mucho ya que por medio de este pasábamos las solicitudes a diferentes objetos hasta que uno se encargará de esta.
 Cómo Lo aplico
