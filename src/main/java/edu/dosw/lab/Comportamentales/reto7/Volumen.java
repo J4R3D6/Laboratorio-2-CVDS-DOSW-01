@@ -10,6 +10,7 @@ class Volumen {
             nivel = valor;
             System.out.println("🔊 Volumen ajustado a " + nivel);
         }catch (IllegalArgumentException e) {
+            System.out.println("🔊 Volumen Invalido");
             this.reset();
         }
     }

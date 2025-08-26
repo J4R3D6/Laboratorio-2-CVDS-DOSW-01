@@ -1,13 +1,12 @@
 # 📝 Laboratorio 02 – SOLID, Patrones de Diseño y UML
 
 **Integrantes:**
-- Daniel Eduardo Useche
-- Jared Farfan
-- Carlos Piedrahita
-- Maria Paula Rodriguez 
+- Nombre Completo 1  
+- Nombre Completo 2  
+- Nombre Completo 3  
 
 **Nombre de la rama:**  
-`feature/Apellido1_Apellido2_Apellido3_2025-2`
+`feature/RodriguezMariaPaula_PiedrahitaCarlos_UsecheDaniel_FarfanJared_2025-2`
 
 ---
 
@@ -53,4 +52,55 @@
 
     Una interfaz es un contrato que define comportamiento y por otro lado la clase abstracta define más que todo atributos y métodos abstractos sin implementación. 
 
- 
+## Desafios:
+
+### Reto 1 :
+
+El patrón implementado es *Strategy Pattern*, el cual se clasifica como patrón comportamental porque determina cómo se debe realizar el intercambio de mensajes entre diferentes objetos para resolver una tarea, tambien se uso el patrón *Factory* para mejorar la creacion de los diferentes tipos de cliente.
+
+Clases necesarias Reto1TiendaDeDonPepe, Client, ClientFactory, DiscountStrategy, FrequentClient, NewClient, Product y ShoppingCart.
+
+Usamos este patrón de diseño ya que desacopla la forma en la que hacemos el descuento de los clientes, pues en caso de crear un nuevo tipo de cliente y este no contar con un descuento se tendría que cambiar el comportamiento de la clase padre (cliente) violando los princio SOLID (open close).
+
+### Reto 2 :
+
+El patrón implementado es *Builder*, el cual se clasifica como patrón creacional pues que el problema en cuestión plantea una construcción distinta al mismo objeto
+
+Clases necesarias Reto2ChefDeHamburguesas, Hamburguesa, Builder
+
+### Reto 3 :
+
+Patrón de Diseño 
+Se utilizaron dos clases de patrones, tanto el creacional como el estructural
+Patrón Utilizado
+Patrón #1: Factory Method.
+Patrón #2: Decorator.
+Justificación
+Patrón #1: Se utilizó para que por medio de este pudiéramos centralizar la creación de los distintos tipos de vehículos. 
+Patrón #2: Este tuvo un uso para poder agregar características adicionales a los vehículos de manera dinámica.
+Cómo Lo aplico
+Patrón #1: Por medio de la clase ‘VehicleFactory’ la cual cuenta con un método estático que recibe los parámetros que ingresa el usuario y regresa la instancia del respectivo vehículo.
+Patrón #2: Con la clase ‘DecoratorCategory’ la cual se tomó como base se realizaron unos decoradores específicos como por ejemplo “luxury” los cuales se encargan de alterar los valores determinados.
+
+### Reto 4 :
+
+### Reto 5 :
+
+### Reto 6 :
+
+Patrón de Diseño 
+Comportamiento
+Patrón Utilizado
+Chain of responsibility
+Justificación
+Este patrón nos ayudó mucho ya que por medio de este pasábamos las solicitudes a diferentes objetos hasta que uno se encargará de esta.
+Cómo Lo aplico
+Ponemos a los técnicos en una cola que tiene orden de prioridad y cuando llega una nueva solicitud para atender el programa revisa en la cola y selecciona automáticamente el técnico que más se adecue al problema.
+
+### Reto 7 :
+
+El patrón implemtado es *Command*, el cual se clasifica como patrón creacional Cada acción (Encender luz, Abrir puerta, etc.) se encapsula como un objeto comando y este sabe cómo ejecutarse y cómo deshacerse, el control remoto no necesita conocer la lógica interna de cada dispositivo solo manda execute() o undo().
+
+Permite mantener un historial de comandos ejecutados, lo cual facilita saber quién ejecutó qué.
+
+### Reto 8 :
