@@ -1,3 +1,4 @@
+package edu.dosw.lab.Creacionales.reto3;
 abstract class DecoratorCategory implements Vehicle {
     protected Vehicle vehicle;
     public DecoratorCategory(Vehicle v) { this.vehicle = v; }

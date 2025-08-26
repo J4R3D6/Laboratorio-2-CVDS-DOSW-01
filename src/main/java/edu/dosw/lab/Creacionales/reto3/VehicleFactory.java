@@ -1,3 +1,4 @@
+package edu.dosw.lab.Creacionales.reto3;
 class VehicleFactory {
     public static Vehicle createVehicle(int type, int model) {
         switch(type) {

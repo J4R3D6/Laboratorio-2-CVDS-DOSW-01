@@ -1,21 +1,23 @@
-public class SmallPlane implements Vehicle {
+package edu.dosw.lab.Creacionales.reto3;
+public class Car implements Vehicle{
+
     @Override
     public String getName() {
-        return "Small Plane";
+        return "Car";
     }
 
     @Override
     public double getPrice() {
-        return 400000;
+        return 50000;
     }
 
     @Override
     public double getMaximumSpeed() {
-        return 260;
+        return 100;
     }
 
     @Override
     public String getEquipment() {
-        return "Hall";
+        return "air-conditioning";
     }
 }

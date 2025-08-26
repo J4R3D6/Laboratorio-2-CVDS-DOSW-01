@@ -1,3 +1,4 @@
+package edu.dosw.lab.Creacionales.reto3;
 public class Economic extends DecoratorCategory{
     public Economic(Vehicle v) { super(v); }
     @Override

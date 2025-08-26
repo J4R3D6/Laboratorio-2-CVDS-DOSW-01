@@ -1,7 +1,9 @@
+package edu.dosw.lab.Estructurales.reto5;
+
 import java.util.*;
 
-public class main {
-    public static void main(String[] args) {
+public class Reto5ElCafePersonalizado {
+    public static void ejecutar() {
         Scanner scanner = new Scanner(System.in);
         List<Coffee> coffees = new ArrayList<>();
         System.out.print("Number of coffees to customize: ");

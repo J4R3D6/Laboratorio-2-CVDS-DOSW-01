@@ -2,7 +2,7 @@ package edu.dosw.lab.Comportamentales.reto4;
 
 import java.util.*;
 
-public class ServicioCambio {
+public class Reto4LaEstafaDeLaCasaDeCambio {
 
     public static void ejecutar() {
         TasaCambio tasaCambio = new TasaCambioReal();

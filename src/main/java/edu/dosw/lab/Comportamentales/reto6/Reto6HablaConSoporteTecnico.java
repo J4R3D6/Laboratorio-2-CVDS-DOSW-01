@@ -1,10 +1,12 @@
+package edu.dosw.lab.Comportamentales.reto6;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.stream.Collectors;
-public class main {
-    public static void main(String[] args) {
+public class Reto6HablaConSoporteTecnico {
+    public static void ejecutar() {
         Scanner sc = new Scanner(System.in);
         List<Ticket> tickets = new ArrayList<>();
         System.out.print("Enter number of tickets: ");

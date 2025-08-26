@@ -9,7 +9,6 @@ public class Reto1TiendaDeDonPepe {
         System.out.println("Bienvenido a la tienda Don Pepe!");
         System.out.print("Tipo de cliente: ");
         String tipoCliente = sc.nextLine().trim().toLowerCase();
-        // Escoger la estrategia de descuento según el cliente
         Client cliente;
         try {
             cliente = ClienteFactory.crearCliente(tipoCliente);
@@ -29,7 +28,6 @@ public class Reto1TiendaDeDonPepe {
             String line = scp.nextLine().trim();
             if (line.isEmpty()) break;
 
-            // Separar por ":"
             String[] parts = line.split(":");
 
             if (parts.length == 2) {

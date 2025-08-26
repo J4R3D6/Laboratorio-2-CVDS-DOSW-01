@@ -1,3 +1,5 @@
+package edu.dosw.lab.Estructurales.reto5;
+
 public class CustomTopping extends CoffeeDecorator {
     private String name;
     private double price;

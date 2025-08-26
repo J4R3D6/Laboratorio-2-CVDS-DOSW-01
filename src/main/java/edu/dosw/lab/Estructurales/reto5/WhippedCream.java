@@ -1,3 +1,5 @@
+package edu.dosw.lab.Estructurales.reto5;
+
 public class WhippedCream extends CoffeeDecorator {
     public WhippedCream(Coffee coffee) {
         super(coffee);

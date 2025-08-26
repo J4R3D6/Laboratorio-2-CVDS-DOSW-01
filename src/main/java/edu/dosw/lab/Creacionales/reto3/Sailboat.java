@@ -1,3 +1,4 @@
+package edu.dosw.lab.Creacionales.reto3;
 public class Sailboat implements Vehicle{
     @Override
     public String getName() {

@@ -1,3 +1,4 @@
+package edu.dosw.lab.Comportamentales.reto6;
 public class Ticket {
     private final String description;
     private final Level level;

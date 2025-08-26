@@ -1,21 +1,22 @@
-public class Bicycle implements Vehicle{
+package edu.dosw.lab.Creacionales.reto3;
+public class Motocycle implements Vehicle{
     @Override
     public String getName() {
-        return "Bicycle";
+        return "Motocycle";
     }
 
     @Override
     public double getPrice() {
-        return 1000;
+        return 20000;
     }
 
     @Override
     public double getMaximumSpeed() {
-        return 60;
+        return 120;
     }
 
     @Override
     public String getEquipment() {
-        return "Guayas";
+        return "Bluetooth connection";
     }
 }

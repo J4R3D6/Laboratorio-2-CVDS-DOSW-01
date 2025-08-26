@@ -1,3 +1,4 @@
+package edu.dosw.lab.Comportamentales.reto6;
 public abstract class Technician {
     protected Technician next;
     protected Level level;

@@ -1,3 +1,4 @@
+package edu.dosw.lab.Creacionales.reto3;
 public class Luxury extends DecoratorCategory{
     public Luxury(Vehicle v) { super(v); }
     @Override

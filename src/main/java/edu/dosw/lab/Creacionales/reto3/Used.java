@@ -1,3 +1,4 @@
+package edu.dosw.lab.Creacionales.reto3;
 public class Used extends DecoratorCategory{
     public Used(Vehicle v) { super(v); }
     @Override

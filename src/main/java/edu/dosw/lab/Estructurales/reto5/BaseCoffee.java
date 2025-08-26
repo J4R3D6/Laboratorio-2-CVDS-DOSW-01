@@ -1,3 +1,5 @@
+package edu.dosw.lab.Estructurales.reto5;
+
 public class BaseCoffee implements Coffee {
     @Override
     public String getDescription() {
