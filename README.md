@@ -70,11 +70,32 @@ Clases necesarias Reto2ChefDeHamburguesas, Hamburguesa, Builder
 
 ### Reto 3 :
 
+Patrón de Diseño 
+Se utilizaron dos clases de patrones, tanto el creacional como el estructural
+Patrón Utilizado
+Patrón #1: Factory Method.
+Patrón #2: Decorator.
+Justificación
+Patrón #1: Se utilizó para que por medio de este pudiéramos centralizar la creación de los distintos tipos de vehículos. 
+Patrón #2: Este tuvo un uso para poder agregar características adicionales a los vehículos de manera dinámica.
+Cómo Lo aplico
+Patrón #1: Por medio de la clase ‘VehicleFactory’ la cual cuenta con un método estático que recibe los parámetros que ingresa el usuario y regresa la instancia del respectivo vehículo.
+Patrón #2: Con la clase ‘DecoratorCategory’ la cual se tomó como base se realizaron unos decoradores específicos como por ejemplo “luxury” los cuales se encargan de alterar los valores determinados.
+
 ### Reto 4 :
 
 ### Reto 5 :
 
 ### Reto 6 :
+
+Patrón de Diseño 
+Comportamiento
+Patrón Utilizado
+Chain of responsibility
+Justificación
+Este patrón nos ayudó mucho ya que por medio de este pasábamos las solicitudes a diferentes objetos hasta que uno se encargará de esta.
+Cómo Lo aplico
+Ponemos a los técnicos en una cola que tiene orden de prioridad y cuando llega una nueva solicitud para atender el programa revisa en la cola y selecciona automáticamente el técnico que más se adecue al problema.
 
 ### Reto 7 :
 
